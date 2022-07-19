@@ -28,8 +28,8 @@ h1{
 /* header section start here */
 
 .header{
-    width: 90%;
-    margin: 50px auto;
+    width: 97%;
+    margin: 1.7em auto;
     transition: transform 0.2s ease;
 }
 
@@ -113,9 +113,9 @@ h1{
 .blog{
     height: 360px;
     width: 310px;
-    background-color: aqua;
+    background-color: #ffffff;
     border-radius: 10px;
-    box-shadow: 1px 3px 10px gray;
+    box-shadow: 1px 3px 10px rgb(218, 208, 208);
 }
 
 .blog img {
