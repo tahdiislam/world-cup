@@ -11,6 +11,10 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+:root{
+    --common-color: #DD0000;
+}
+
 h1{
     font-size: 3rem;
 }
@@ -18,7 +22,7 @@ h1{
 .btn{
     color: #ffffff;
     text-decoration: none;
-    background-color: #DD0000;
+    background-color: var(--common-color);
     padding: 15px 25px;
     border-radius: 5px;
 }
@@ -108,7 +112,7 @@ h1{
 
 .menu:hover{
     transform: scale(1.03);
-    background-color: #DD0000;
+    background-color: var(--common-color);
     color: #ffffff;
 }
 
@@ -154,9 +158,9 @@ h1{
 }
 
 .btn-2:hover{
-    background-color: #DD0000;
+    background-color: var(--common-color);
     color: #ffffff;
-    border: 2px solid #DD0000;
+    border: 2px solid var(--common-color);
 }
 
 /* first section end here */
@@ -174,7 +178,7 @@ h1{
 }
 
 .btn-3 {
-    background-color: #DD0000;
+    background-color: var(--common-color);
     padding:10px 25px;
     border-radius: 5px;
     text-decoration: none;
@@ -219,6 +223,11 @@ h1{
     color: #ffffff;
     padding: 10px;
     font-size: 1em;
+    transition: all 0.3s;
+}
+
+.footer-menu a:hover {
+    color: var(--common-color);
 }
 
 .footer-menu h5 {
@@ -231,10 +240,11 @@ h1{
     color: #ffffff;
     font-size: 2em;
     padding: 0 1em 1em 1em;
+    transition: all 0.3s;
 }
 
 .footer-icon a i:hover {
-    color: #DD0000;
+    color: var(--common-color);
 }
 
 /* footer end here */
