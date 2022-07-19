@@ -310,3 +310,59 @@ h1{
 }
 
 /* mobile devices end here */
+
+/* tablet divices start here */
+
+@media screen and (min-width: 689px) and (max-width: 992px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    .div003{
+    width: 18em;
+    height: 25em;
+    }
+    .flexiable{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu-bar{
+        background-color: #ffffff;
+        margin-right: 0;
+        flex-direction: row;
+        justify-content: center;
+        height: 8em;
+        width: 48em;
+        margin-bottom: 1.5em;
+    }
+    .menu{
+        box-shadow: 1px 1px 10px lightgray;
+        width: 14em;
+        margin: 0.5em;
+    }
+    .blogs{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .only-tab{
+        display: block;
+    }
+
+
+    .hr{
+        margin: 0 3em;
+    }
+
+    .footer{
+    margin-top: 4vh;
+    }
+
+
+    .footer-icon a i {
+        font-size: 1.5em;
+    }
+
+}
+
+/* tablet divices end here */
