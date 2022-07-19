@@ -272,8 +272,30 @@ h1{
     .div002 img {
         width: auto;
     }
-    h1{
+    .div003 h1{
         font-size: 1.3em;
+        text-align: center;
+    }
+    .flexiable{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu-bar{
+        background-color: #ffffff;
+    }
+
+    .menu{
+        box-shadow: 1px 1px 10px lightgray;
+    }
+
+    .blogs{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .footer-menu{
+        flex-direction: column;
+        align-items: center;
     }
 }
 
