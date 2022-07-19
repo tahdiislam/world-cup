@@ -257,9 +257,10 @@ h1{
     }
 
     .div003{
-        width: 16.1em;
-        height: 12em;
+        width: 19em;
+        height: 13em;
         align-items: center;
+        margin: 2em
     }
     .div003 p{
         width: 16em;
@@ -273,7 +274,7 @@ h1{
         width: auto;
     }
     .div003 h1{
-        font-size: 1.3em;
+        font-size: 1.5em;
         text-align: center;
     }
     .flexiable{
@@ -283,6 +284,7 @@ h1{
 
     .menu-bar{
         background-color: #ffffff;
+        margin-right: 0;
     }
 
     .menu{
@@ -297,6 +299,14 @@ h1{
         flex-direction: column;
         align-items: center;
     }
+    .hr{
+        margin: 0 2em;
+    }
+
+    .footer-icon a i {
+        font-size: 1em;
+    }
+
 }
 
 /* mobile devices end here */
