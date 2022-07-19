@@ -211,6 +211,14 @@ h1{
 
 .footer-menu{
     display: flex;
+    margin-bottom: 1em;
+}
+
+.footer-menu a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 1em;
 }
 
 .footer-menu h5 {
@@ -219,9 +227,14 @@ h1{
     font-weight: 400;
 }
 
-.footer-icon i {
+.footer-icon a i {
+    color: #ffffff;
     font-size: 2em;
     padding: 0 1em 1em 1em;
+}
+
+.footer-icon a i:hover {
+    color: #DD0000;
 }
 
 /* footer end here */
