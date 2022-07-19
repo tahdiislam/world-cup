@@ -1,0 +1,14 @@
+/* font start */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* font end */
+
+/* common and utilities tag start here */
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* common and utilities tag end here */
