@@ -91,6 +91,7 @@ h1{
 }
 
 .menu{
+    color: #000;
     font-size: 1rem;
     font-weight: 700;
     display: flex;
@@ -116,6 +117,11 @@ h1{
     background-color: #ffffff;
     border-radius: 10px;
     box-shadow: 1px 3px 10px rgb(218, 208, 208);
+    transition: transform 0.2s ease;
+}
+
+.blog:hover{
+    transform: scale(1.02);
 }
 
 .blog img {
@@ -131,8 +137,9 @@ h1{
 }
 
 .btn-2 {
+    color: #000;
     text-decoration: none;
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 5px;
     padding: 5px;
 }
