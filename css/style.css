@@ -42,13 +42,13 @@ h1{
 /* header section start here */
 
 .header{
-    width: 97%;
+    width: 99%;
     margin: 1.7em auto;
     transition: transform 0.2s ease;
 }
 
 .header:hover{
-    transform: scale(1.02);
+    transform: scale(1.01);
 }
 
 .top-section{
@@ -276,6 +276,10 @@ footer{
     body{
         width: 100%;
     }
+    .header{
+        width: 98%;
+        margin-top: 0.3em;
+    }
     .top-section{
         flex-direction: column;
     }
@@ -341,6 +345,11 @@ footer{
     body{
         width: 100%;
     }
+    .header{
+        width: 98%;
+        margin-top: 0.4em;
+    }
+
     h1 {
         font-size: 2em;
     }
