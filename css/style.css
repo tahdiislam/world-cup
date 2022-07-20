@@ -27,6 +27,14 @@ h1{
     background-color: var(--common-color);
     padding: 1em 1.8em;
     border-radius: 0.5em;
+    font-size: 1em;
+    transition: all 0.3s ease;
+}
+
+.btn:hover{
+    font-size: 1.005em;
+    transform: scale(1.01);
+    box-shadow: 1px 1px 10px #c40d0de1;
 }
 
 /* common and utilities tag end here */
