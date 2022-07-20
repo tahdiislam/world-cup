@@ -1,0 +1,31 @@
+/* matches start here */
+
+.matches{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5em
+}
+
+.match{
+    width: 19.5em;
+    height: 15em;
+    box-shadow: 1px 2px 10px rgb(218, 218, 218);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1em;
+}
+
+.flags{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flags img{
+    width: 6em;
+    height: 3.3em;
+    margin: 2em 1.5em;
+}
+
+/* matches end here */
