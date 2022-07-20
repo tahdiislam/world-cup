@@ -9,6 +9,8 @@
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
+    width: 82em;
+    margin: 0 auto;
 }
 
 :root{
@@ -198,6 +200,10 @@ h1{
 
 /* footer start here */
 
+footer{
+    width: 100%;
+}
+
 .footer{
     background-color: #161616;
     color: #ffffff;
@@ -337,7 +343,7 @@ h1{
     .menu-bar{
         background-color: #ffffff;
         margin-right: 0;
-        flex-direction: row;
+        flex-direction: row-reverse;
         justify-content: center;
         height: 10em;
         width: 48em;
