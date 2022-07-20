@@ -29,3 +29,23 @@
 }
 
 /* matches end here */
+
+/* mobile devices responsive start here */
+
+@media only screen and (max-width: 688px){
+    .matches{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+/* mobile devices responsive end here */
+
+/* tablet divices responsive start here */
+
+@media screen and (min-width: 689px) and (max-width: 992px){
+    .matches{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* tablet divices responsive end here */
