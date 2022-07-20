@@ -265,6 +265,9 @@ footer{
 /* mobile devices start here */
 
 @media only screen and (max-width: 688px) {
+    body{
+        width: 100%;
+    }
     .top-section{
         flex-direction: column;
     }
@@ -327,6 +330,9 @@ footer{
 /* tablet divices start here */
 
 @media screen and (min-width: 689px) and (max-width: 992px) {
+    body{
+        width: 100%;
+    }
     h1 {
         font-size: 2em;
     }
