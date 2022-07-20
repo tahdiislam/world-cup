@@ -88,10 +88,11 @@ h1{
     width: 19.5em;
     height: 19.5em;
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
     border-radius: 1.25em;
     margin-right: 1.5em;
+    justify-content: center;
 }
 
 .menu{
@@ -111,7 +112,13 @@ h1{
 }
 
 .menu:hover{
-    transform: scale(1.03);
+    transform: scale(1.1);
+    background-color: var(--common-color);
+    color: #ffffff;
+}
+
+.menu-blog{
+    transform: scale(1.1);
     background-color: var(--common-color);
     color: #ffffff;
 }
@@ -332,7 +339,7 @@ h1{
         margin-right: 0;
         flex-direction: row;
         justify-content: center;
-        height: 8em;
+        height: 10em;
         width: 48em;
         margin-bottom: 1.5em;
     }

@@ -1,5 +1,11 @@
 /* matches start here */
 
+.menu-match {
+    transform: scale(1.1);
+    background-color: var(--common-color);
+    color: #ffffff;
+}
+
 .matches{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
